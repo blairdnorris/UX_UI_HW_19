@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="./b-logo-dark.png" alt="Norris Logo" />
+        <ul>
+            <li>Projects</li>
+            <li>About</li>
+            <li>Resume</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <section class="about">
+        <img class="profile" src="./Profile.png" alt="Norris Profile" onmouseover="this.src='Profile2.png'" onmouseout="this.src='Profile.png'"/>
+        <div class="info">
+            <h1>Hi! I'm Blair.</h1>
+            <p>I am a recent graduate from Denver University's UX/UI bootcamp. I enjoy sloving problems and collaborating with a team. Having a retail background I find I am great at understanding the line between corporate and user needs.</p>
+            <button id="myBtn">Get In Touch</button>
+            <div id="myModal" class="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <h1 class="email">Email: bdnorris23@gmail.com</h1>
+                    <h1 class="phone">Phone: 970-412-9904</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+<!--  My UX Skills section coded using CSS flex -->
+    <section class="skill">
+        <h1 class="skillz">My Skills</h1>
+    </section>
+
+    <div class="container">
+        <div class="box">
+            <div class="content">
+                <img class="icons" src="Desktop.png" alt="desktop">
+                <h2>Software</h2>
+                <p class="skills">My skills include: Creating wireframes and prototypes in Figma. Card sorting and making an affinity diagram in Miro. Create a website with HTML and CSS using GitHub and VSC.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img class="UX" src="Edit-alt.png" alt="edit">
+                <h2>UX Design</h2>
+                <p class="skills">My skills include: Creating wireframes and prototypes in Figma. Card sorting and making an affinity diagram in Miro. Create a website with HTML and CSS using GitHub and VSC.</p>
+            </div>
+        </div>
+        <div class="box">
+            <div class="content">
+                <img class="UI" src="Edit.png" alt="edit2">
+                <h2>UI Design</h2>
+                <p class="skills">My skills include: Creating wireframes and prototypes in Figma. Card sorting and making an affinity diagram in Miro. Create a website with HTML and CSS using GitHub and VSC.</p>
+            </div>
+        </div>
+    </div>
+
+    <section class="work">
+        <h1 class="mywork">My Work</h1>
+    </section>
+
+    <div class="container1">
+        <div class="box1">
+            <div class="content1">
+                <div class="inner-content"><img class="Cinema" src="Group 2 (1).png" alt="Mobile CinemaSelector"></div>
+                <div class="inner-content">
+                     <h3>CinemaSelector</h3>
+                     <p class="CS">Finds the right movie for users!</p>
+                     <button class="button1">View Case Study</button>
+                </div>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="content1">
+                <div class="inner-content"><img class="Cinema" src="Group 3.png" alt="Mobile CinemaSelector"></div>
+                <div class="inner-content">
+                     <h3>Federal Trade Commission</h3>
+                     <p class="CS">Government Website Redesign.</p>
+                     <button class="button1">View Case Study</button>
+                </div>
+            </div>
+        </div>
+        <div class="box1">
+            <div class="content1">
+                <div class="inner-content"><img class="Cinema" src="Group 4.png" alt="Mobile CinemaSelector"></div>
+                <div class="inner-content">
+                     <h3>MaxFund</h3>
+                     <p class="CS">NonProfit Website Redesign.</p>
+                     <button class="button1">View Case Study</button>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+    <footer>
+        <div class="contact"><h4>Contact</h4></div>
+        <div class="links"><img src="Group 5.png" alt="link"></div>
+        <dive class="CR"><img src="Group 6.png" alt="copy-write"></dive>
+    </footer>
+</body>

@@ -1,0 +1,277 @@
+body {
+    padding: 10px;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li:hover {
+    color: #e4d7e6;
+    text-decoration: underline;
+}
+
+li {
+    /* border: solid black; */
+    padding: 16px 32px;
+    word-spacing: 61px;
+    color: #4CE3EE;
+    font-size: 36px;
+}
+
+.logo {
+    width: 224px;
+    height: 171px;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+#myBtn {
+    border: 2px solid #4CE3EE;
+    width: 175px;
+    height: 65px;
+    background-color: black;
+    color: #4CE3EE;
+    font-size: 24px;
+    position: absolute;
+    margin-top: 30px;
+    right: 200px;
+}
+
+#myBtn:hover {
+    background-color: #4CE3EE;
+    color: black;
+}
+
+.modal {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    width: 900px;
+    height: 300px;
+    margin: -300px 300px;
+}
+
+.modal-content {
+    background-color: #4CE3EE;
+    margin: 100px 300px;
+    padding: 10px;
+    border: 1px solid #4CE3EE;
+    width: 700px;
+    height: 175px;
+}
+
+.email {
+    color: black;
+    padding: 10px 40px;
+    margin: 20px;
+    max-width: 700px;
+
+}
+
+.phone {
+    color: black;
+    padding: 10px 40px;
+    margin: 20px;
+    max-width: 700px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+h1 {
+    padding: 20px 0px;
+    color: #e4d7e6;
+    max-width: 300px;
+    font-size: 40px;
+}
+
+p {
+    padding: 10px;
+    font-size: 25px;
+    color: #e4d7e6;
+    max-width: 800px;
+    max-height: 700px;
+}
+
+.info {
+    max-width: 700px;
+    padding: 10px;
+    font-size: 30px;
+    color: #e4d7e6;
+    margin-bottom: 100px;
+}
+
+.skillz {
+    color: #e4d7e6;
+    font-size: 36px;
+    margin: 30px;
+    margin-bottom: 20px;
+}
+
+.container {
+    position: relative;
+    width: 1200px;
+    height: 300px;
+    margin: 0px 100px;
+}
+
+.container .box {
+    position: relative;
+    width: calc(400px - 30px);
+    height: calc(500px - 30px);
+    background: black;
+    border: 2px solid #4CE3EE;
+    border-radius: 10px;
+    float: left;
+    margin: 15px;
+    box-sizing: border-box;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.icons {
+    height: 99px;
+    width: 99px;
+    margin-bottom: 10px;
+}
+
+.UX {
+    height: 99px;
+    width: 99px;
+    margin-bottom: 10px;
+}
+
+.UI {
+    height: 99px;
+    width: 99px;
+    margin-bottom: 10px;
+}
+
+.container .box .content {
+    color: #4CE3EE;
+    align-items: center;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+}
+
+.skills {
+    color: #4CE3EE;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+
+}
+
+.mywork {
+    color: #e4d7e6;
+    font-size: 36px;
+    margin: 30px;
+    margin-bottom: 20px;
+}
+
+.container1 {
+    position: relative;
+    width: 1200px;
+    height: 100px;
+    margin: 0px 100px;
+}
+
+.content1 {
+    display: flex;
+}
+
+.container1 .box1 {
+    display: flex;
+    width: calc(1225px - 30px);
+    height: calc(450px - 30px);
+    background: #e4d7e6;
+    border-radius: 10px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.inner-content {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.button1 {
+    border: 2px solid black;
+    width: 215px;
+    height: 65px;
+    background-color: #e4d7e6;
+    color: black;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.button1:hover {
+    background-color: black;
+    color: #e4d7e6;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.CS {
+    color: black;
+    font-size: 25px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1300px;
+
+}
+
+.contact {
+    color: white;
+    font-size: 30px;
+    padding: 20px;
+}
+
+.links {
+    padding: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    
+}
